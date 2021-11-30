@@ -1,0 +1,6 @@
+Aufgabe 3:
+π kunde.emailadresse, kunde.vorname, kunde.nachname
+σ bestellung.rechnungsbetrag > (π AVG(rechnungsbetrag)) 
+(BESTELLUNG ⋈ kunde.emailadresse = bestellung.emailadresse KUNDE)
+
+

@@ -1,0 +1,3 @@
+Aufgabe 1: 
+π bestellung.bestelldatum, zahlungsmethode.zahlungsart, zahlungsmethode.emailadresse 
+σ zahlungsmethode.zahlungsart = "PayPal" ∧ bestellung.bestelldatum = "26.11.2021" (BESTELLUNG ⋈ bestellung.zahlungsid = zahlungsmethode.zahlungsid ZAHLUNGSMETHODE)

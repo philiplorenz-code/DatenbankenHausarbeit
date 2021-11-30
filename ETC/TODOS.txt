@@ -1,0 +1,48 @@
+INSERT INTO 'Anbieter' (Name,Trustscore,Website,Emailadresse) VALUES
+('Moebel GmbH','10','moebel-gmbh.de','service@moebel-gmbh.de'),
+('Adidas','10','adidas.de','info@adidas'),
+('FanartikelShop','10','shop.fanartikel.de','request@fanartikel.de'),
+('Angelzubehoer','10','angel-zubehoer.de','ticket@angel-zubehoer.de'),
+('Dampfershop','10','dampfer-shop.de','service@dampfer-shop.de')Nachbesserungen:
+
+
+ER: 
+- Punkte bei Bewertungen hinzufügen
+- Name -> Vor- und Nachname
+
+Relation:
+- Name -> Vor- und Nachname
+
+
+
+
+2Moebel		2Lampe		220		6helga-maier@mail.de			zahlung5
+3Adidas		1Shirt		39,90		5max-mustermann@protonmail.com		zahlung4
+4Fanartikel	3Sticker	15		3jens.schmalen@gmx.de			zahlung3
+5Angel		4Haken		9,70		2philip.lorenz@web.de			zahlung2
+6Dampfershop	5Vape		33,33		1hendrik.schmitt@web.de			zahlung1
+
+
+bestellung1 produkt5
+bestellung2 produkt4
+bestellung3 produkt3
+bestellung4 produkt2
+bestellung5 produkt1
+
+
+
+
+
+1. Finde heraus, ob es Bestellungen gibt, bei welcher ein falscher Rechungsbetrag ermittelt wurde.      Gib die Entsprechende Bestellung dazu aus und den Namen des Kunden aus
+
+2. Welche Kunden kauften ein Produkt, dessen Preis über 20€ liegt? Gib die Kunden und das jeweilig    bestelle Produkt an.
+
+3. Was ist der durchschnittliche Bestellwert? Welche Kunden liegen darüber?
+
+4. Amazon Marketplace updated sein Anti-Fraud-System. Bevor sie 5 Punkte auf ihrem Trsut-Score Konto abgezogen bekommen, müssen alle Anbieter mit einem Trustscore unter 40 ermittelt werden, die Produkte verbreiten, welchen kein Bild zugeordnet ist.
+
+5. Wielange dauert eine Lieferung im Schnitt? (Differenz zwischen Bestell- und Lieferdatum)
+
+6. Es gibt eine allgemeine Störung bei den PayPal-Zahlungen. Der Automatismus zum Deaktivieren zur Zahlungsmethode hat aber nicht gegriffen, weshalb Kunden weiterhin auf die Methode zugreifen konnten (diese hat im Hintergrund aber nicht mehr funktioniert, weshalb die Zahlungstransaktionen nicht abgeschlossen werden konnten). Finde heraus welche Bestellungen am 29.11.2021 mittels PayPal durchgeführt wurden, sodass eine Korrektur im System vorgenommen werden kann.
+
+

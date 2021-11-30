@@ -1,0 +1,3 @@
+Aufgabe 4:
+π anbieter.emailadresse
+σ produkt.produktbild = "" ∧ anbieter.trustscore < 40 (PRODUKT ⋈ anbieter.anbieterid = produkt.anbieterid ANBIETER)

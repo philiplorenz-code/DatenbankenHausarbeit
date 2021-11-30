@@ -1,0 +1,8 @@
+Aufgabe 2:
+π kunde.vorname, kunde.nachname, produkt.name
+σ produkt.preis > 20 (
+  PRODUKT ⋈ 
+  produkt.produktid = beinhaltet.produktid BEINHALTET ⋈ 
+  BESTELLUNG.bestellid = beinhaltet.bestellid BESTELLUNG ⋈ 
+  kunde.emailadresse = bestellung.emailadresse KUNDE
+)
